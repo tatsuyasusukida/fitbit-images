@@ -1,0 +1,14 @@
+<svg viewport-fill="gray">
+  <image x="68" y="68" width="200" height="200" href="pose_genki01_boy.png" id="image" class="hidden" pointer-events="visible" />
+  <use id="myList" href="#tile-list" class="horizontal-pad" pointer-events="visible">
+    <use href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Text Item 1" />
+    </use>
+    <use href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Text Item 2" />
+    </use>
+    <use href="#my-item">
+      <set href="#text" attributeName="text-buffer" to="Text Item 3" />
+    </use>
+  </use>
+</svg>
